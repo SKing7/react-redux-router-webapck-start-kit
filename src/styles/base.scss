@@ -1,3 +1,5 @@
+@import '../../variables/helpers.scss'
+
 html, body, :global(#root) {
   height: 100%;
   margin: 0;
@@ -6,15 +8,3 @@ html, body, :global(#root) {
   font-family: "Helvetica Neue",Tahoma,Arial,"Microsoft Yahei",sans-serif;
 }
 
-div, input, button {
-  outline:0px;
-}
-
-#root > div {
-  height: 100%;
-}
-
-
-.ant-layout {
-  height: 100%;
-}

@@ -1,6 +1,7 @@
 import React from 'react'
 import { IndexLink, Link } from 'react-router'
 import PropTypes from 'prop-types'
+import 'normalize.css/normalize.css'
 import styles from './layout.scss'
 
 class Index extends React.Component {
