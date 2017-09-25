@@ -1,0 +1,4 @@
+build
+*.config.js
+web-static
+server
