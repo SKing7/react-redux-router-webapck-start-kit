@@ -1,14 +1,21 @@
 .fr {
   float: right;
 }
+
 .fl {
   float: left;
 }
+
+.h100 {
+  height: 100%;
+}
+
 .clearfix:after {
   content: "";
   display: block;
   clear: both;
 }
+
 .relative {
   position: relative;
 }

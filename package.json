@@ -17,6 +17,7 @@
     "lodash": "4.17.4",
     "normalize.css": "7.0.0",
     "object-assign": "4.1.1",
+    "openlayers": "4.3.4",
     "promise": "8.0.1",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
