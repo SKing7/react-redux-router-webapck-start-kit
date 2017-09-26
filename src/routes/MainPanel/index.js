@@ -1,6 +1,11 @@
 import { injectReducer } from '../../store/reducers'
-import Comp from './components/MainPanel'
+
 export default (store) => ({
   path : 'index',
-  component: Comp
+  getComponent (nextState, cb) {
+    require.ensure([], (require) => {
+      const comp = require('./containers/MainPanel').default
+      cb(null, comp)
+    }, 'main-panel')
+  },
 })

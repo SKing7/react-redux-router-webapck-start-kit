@@ -1,17 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-class MainPanel extends React.Component {
+class ControlPanel extends React.Component {
 
     render()  {
       return (
         <div>
-          {this.props.children}
+          ControlPanl Component
          </div>
        )
      }
  }
-MainPanel.propTypes = {
+ControlPanel.propTypes = {
 }
 
- export default MainPanel
+ export default ControlPanel

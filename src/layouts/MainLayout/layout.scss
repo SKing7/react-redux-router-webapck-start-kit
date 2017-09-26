@@ -1,15 +1,15 @@
 :local(.wrapper) {
   header {
     height: 70px;
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     font-size: 22px;
     padding: 20px;
     background: #1A3A50;
     color: #fff;
     overflow: hidden;
-    z-index: 1049;
+    z-index: 1;
+  }
+  .content-wrapper {
+    color: #333;
   }
 }

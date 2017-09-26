@@ -10,6 +10,7 @@
     "install-node": "6.9.2"
   },
   "dependencies": {
+    "axios": "0.16.2",
     "es6-object-assign": "1.1.0",
     "express-urlrewrite": "1.2.0",
     "history": "^3.0.0",
