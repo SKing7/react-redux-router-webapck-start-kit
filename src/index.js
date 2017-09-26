@@ -1,5 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import 'normalize.css/normalize.css'
+import 'semantic-ui-css/semantic.min.css';
+import './styles/base.scss'
 import createStore from './store/createStore'
 
 const store = createStore(window.__INITIAL_STATE__)
