@@ -14,6 +14,11 @@ const ACTION_HANDLERS = {
   },
 }
 
+export default function dataProcessingReducer (state = initialState, action) {
+  const handler = ACTION_HANDLERS[action.type];
+  return handler ?  handler(state, action) : state
+}
+
 export const fetchList = (params) => {
   return (dispatch, getState) => {
     return new Promise((resolve) => {
@@ -24,15 +29,14 @@ export const fetchList = (params) => {
           payload: res.data
         })
         resolve()
-      })
+      }) 
       .catch(function (error) {
-        console.log(error);
+        dispatch({
+          type: FETCH_FILE_LIST,
+          payload: []
+        })
       });
     })
   }
 };
 
-export default function dataProcessingReducer (state = initialState, action) {
-  const handler = ACTION_HANDLERS[action.type];
-  return handler ?  handler(state, action) : state
-}
