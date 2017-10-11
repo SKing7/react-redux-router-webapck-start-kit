@@ -1,0 +1,37 @@
+:local(.wrapper) {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  border-radius: 2px;
+  background: rgba(198, 198, 199, 0.6);
+
+  .image-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 835px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+  }
+  h3 {
+    font-size: 18px;
+    color: #5076DB;
+    word-wrap: break-word;
+  }
+  .image-cover {
+  }
+  .image-desc {
+    width: 300px;
+  }
+  li {
+    list-style: inside;
+  }
+  .icon {
+    position: absolute;
+    right: -27px;
+    top: 0;
+  }
+}

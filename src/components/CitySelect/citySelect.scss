@@ -1,0 +1,46 @@
+:local(.wrapper) {
+  display: inline-block;
+
+  .city-list-wrapper {
+    padding: 8px 10px;
+    display: none;
+    background: #fff;
+    width: 600px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 9;
+
+    .arrow-top {
+      position: absolute;
+      left: 50px;
+      top: -12px;
+    }
+  }
+  .city-blocker {
+    padding: 20px 30px;
+    li {
+      list-style: none;
+      float: left;
+      width: 25%;
+      padding: 8px 0;
+    }
+    a {
+      &.active, &:hover {
+        color: #5076db;
+      }
+    }
+  }
+  .ui.tabular.menu .item {
+    min-width: 74px;
+    border: 1px solid transparent;
+    border-left: 1px solid #C7C7C7;
+    border-top: 1px solid #C7C7C7;
+  }
+  .ui.tabular.menu .active.item {
+    border-radius: 0!important;
+  }
+  .ui.tabular.menu .item:last-child {
+    border-right: 1px solid #C7C7C7;
+  }
+}

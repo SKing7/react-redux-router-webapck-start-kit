@@ -1,0 +1,71 @@
+.icon {
+  color: #fff;
+}
+.ui.dropdown>.text,
+.ui.dropdown:not(.button)>.default.text,
+.ui.selection.visible.dropdown>.text:not(.default) {
+  font-weight: normal;
+  color: #fff;
+  font-size: 12px;
+}
+.ui.selection.dropdown {
+  color: #fff;
+  background: #5076DB!important;
+  border: 1px solid #fff!important;
+}
+.ui.dropdown .menu .active.item {
+  font-weight: normal;
+}
+
+.ui.dropdown>.dropdown.icon {
+  margin-left: 0.5em;
+}
+.ui.form .inline.fields>label {
+  font-size: 0.8571em;
+}
+
+header label {
+  color: #FFFFFF!important;
+  font-weight: normal!important;
+  white-space: nowrap;
+}
+.form input[type=text] {
+  width: 110px!important;
+  background: #5076DB!important;
+  border: 1px solid #fff!important;
+  color: #fff!important;
+}
+
+.ui.table {
+  border-radius: 0;
+}
+.ui.table thead th {
+  white-space: nowrap;
+  font-weight: normal;
+  color: #35404D;
+  font-size: 12px;
+  background: rgba(136, 171, 251, 0.3);
+}
+.ui.striped.table tbody tr:nth-child(2n) {
+  background: rgba(136, 171, 251, 0.3);
+}
+.ui.tabular.menu .active.item {
+  font-weight: normal;
+}
+.ui.menu>.item:first-child {
+  border-radius: 0;
+}
+.ui.tabular.menu .item {
+  color: #999;
+  font-size:12px;
+}
+.ui.tabular.menu .active.item {
+  color: #35404D;
+}
+.ui.grid>.row>.column {
+  line-height: 1;
+}
+.ui.grid>.row {
+  padding-top: 0.3571rem;
+  padding-bottom: 0.3571rem;
+}

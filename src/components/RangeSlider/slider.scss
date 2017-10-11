@@ -1,0 +1,29 @@
+:local(.wrapper) {
+  width: 130px;
+  .rangeslider-horizontal .rangeslider__handle {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+  }
+  .rangeslider-horizontal {
+    height: 5px;
+    border-radius: 10px;
+  }
+  .rangeslider-horizontal .rangeslider__handle:after {
+    display: none;
+  }
+
+  .rangeslider {
+    box-shadow: none;
+    background: rgba(255, 255, 255, .5)
+  }
+  .slider-tip {
+    position: absolute;
+    left: 135px;
+    top: -6px;
+    color: #fff;
+  }
+  .rangeslider-horizontal .rangeslider__fill {
+    background: rgba(255, 255, 255, .5)
+  }
+}

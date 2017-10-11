@@ -1,4 +1,5 @@
 @import '../../variables/base.scss';
+@import './button.scss';
 
 html, body, :global(#root) {
   height: 100%;
@@ -7,3 +8,28 @@ html, body, :global(#root) {
   overflow: hidden;
 }
 
+* {
+  box-sizing: border-box;
+}
+a {
+  color: #35404D;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.ui.form .inline.fields:last-child {
+  margin-bottom: 0;
+}
+
+/*reset componet css*/
+.ui.selection.dropdown {
+  min-width: 100px;
+}
+.icon {
+  background-position: center;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}

@@ -1,4 +1,55 @@
 :local(.wrapper) {
-  display: block;
+
+  position: fixed;
+  left: 0;
+  top: 0;
   width: 100%;
+  padding: 15px 20px;
+  background: #5076DB;
+  z-index: 999;
+  font-size: 12px;
+
+  input::placeholder {
+    color: #fff!important;
+    font-size: 12px!important;
+  }
+  .cell-area {
+    white-space: nowrap;
+    input[type=text] {
+      width: 100%!important;
+    }
+    &> .ui.dropdown {
+      width: 75px;
+    }
+  }
+  .cell-source {
+    white-space: nowrap;
+  }
+  .cell-date-select {
+    color: #fff;
+  }
+  .cell-cloud {
+    flex-grow: 2!important;
+    max-width: 220px;
+  }
+  .cell-search {
+    min-width: 70px;
+    flex-grow: 2!important;
+    padding-right: 0!important;
+  }
+  .cell-cloud .fields .field {
+    flex-grow: 1;
+  }
+
+  .coord-wrapper {
+    color: #fff;
+    .wide input[type=text] {
+      border-radius: 0;
+      border: none!important;
+      border-bottom: 1px solid #FDFDFD!important;
+    }
+  }
+  .city-blocker {
+    white-space: normal;
+  }
 }

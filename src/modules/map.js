@@ -8,7 +8,6 @@ const initialState = {
   layers: [1, 2],
 };
 
-
 const ACTION_HANDLERS = {
   [FETCH_LAYER_LIST]: (state, action) => {
     return _.assign({}, state, {fileList: action.payload.file_list});
@@ -31,6 +30,6 @@ export const fetchLayer = (params) => {
         })
         resolve()
       });
-    })
+    });
   }
 };

@@ -17,6 +17,30 @@
 }
 
 .relative {
-  position: relative;
+  position: relative!important;
 }
 
+.inline-block {
+  display: inline-block!important;
+}
+.block {
+  display: block!important;
+}
+
+.none {
+  display: none;
+}
+.arrow-top {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 18px 12px 18px;
+  border-color: transparent transparent #fff transparent;
+}
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 8px 15px 0;
+  border-color: transparent #fff transparent transparent;
+}
